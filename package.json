@@ -1,21 +1,22 @@
 {
-  "name": "npmtest",
+  "name": "npmtest-for-testing-5",
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
   "directories": {
     "example": "examples",
     "lib": "lib",
-    "test": "test"
+    "test": "echo \"Error: no test specified\""
   },
   "dependencies": {
-    "chai": "^4.2.0"
+    "chai": "^4.2.0",
+    "np": "^5.1.1"
   },
   "devDependencies": {
     "mocha": "^6.2.1"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "echo \"No test specified\""
   },
   "repository": {
     "type": "git",
