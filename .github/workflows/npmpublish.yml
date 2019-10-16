@@ -1,8 +1,7 @@
 name: Node.js Package
 
-on:
-  release:
-    types: [created]
+# This workflow is triggered on pushes to the repository.
+on: [push]
 
 jobs:
   build:
